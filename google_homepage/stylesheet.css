@@ -2,17 +2,17 @@ img {
     display: block;
     position: absolute;
     width: 500px;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 190px;
+    margin-left: 380px;
+    /*margin-right: 100px;*/
 }
 
 form {
-    display: block;
-    position: relative;
-    margin-top: 500px, 
-    margin-left: auto;
-    margin-right: auto;
+    /*display: block;*/
+    position: absolute;
+    margin-top: 390px; 
+    margin-left: 450px;
+    /*margin-right: auto;*/
     width: 500px;
 }
 
