@@ -18,7 +18,9 @@ form {
 
 ul {
     list-style-type: none;
-    margin: 0;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 600px;
     padding: 0;
 }
 
