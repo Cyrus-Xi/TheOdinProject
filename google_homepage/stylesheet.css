@@ -2,25 +2,25 @@ img {
     display: block;
     position: absolute;
     width: 350px;
-    margin-top: 190px;
-    margin-left: 380px;
+    margin-top: 210px;
+    margin-left: 440px;
     /*margin-right: 100px;*/
 }
 
 form {
     /*display: block;*/
     position: absolute;
-    margin-top: 390px; 
-    margin-left: 445px;
+    margin-top: 355px; 
+    margin-left: 435px;
     /*margin-right: auto;*/
-    /*width: 500px;*/
+    width: 550px;
 }
 
 ul {
     list-style-type: none;
     position: absolute;
-    margin-top: 5px;
-    margin-left: 700px;
+    margin-top: 10px;
+    margin-left: 930px;
     padding: 0;
 }
 
