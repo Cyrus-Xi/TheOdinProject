@@ -1,7 +1,7 @@
 img {
     display: block;
     /*position: absolute;*/
-    width: 30%;
+    width: 35%;
     margin-top: 210px;
     /*margin-left: 440px;*/
     /*margin-right: 100px;*/
@@ -10,17 +10,17 @@ img {
 }
 
 form {
-    /*display: block;*/
-    position: absolute;
-    margin-top: 355px; 
-    margin-left: 435px;
-    /*margin-right: auto;*/
-    width: 550px;
+    display: block;
+    /*position: absolute;*/
+    margin-top: 10px; 
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ul {
     list-style-type: none;
-    position: absolute;
+    /*position: absolute;*/
     margin-top: 10px;
     margin-left: 930px;
     padding: 0;
