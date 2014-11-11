@@ -28,6 +28,20 @@ ul {
 
 li {
     display: inline;
+    text-decoration: none;
+    color: black;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+.resize {
+    display: inline;
+    width: 20px;
+    height: auto;
+    padding: 0;
+    margin: 0;
 }
 /*#query {*/
     /*display: block;*/
