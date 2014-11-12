@@ -2,7 +2,7 @@ img {
     display: block;
     /*position: absolute;*/
     width: 35%;
-    margin-top: 210px;
+    margin-top: 195px;
     /*margin-left: 440px;*/
     /*margin-right: 100px;*/
     margin-left: auto;
@@ -30,6 +30,7 @@ li {
     display: inline;
     text-decoration: none;
     color: black;
+    margin-left: 5px;
 }
 
 li:hover {
@@ -38,10 +39,11 @@ li:hover {
 
 .resize {
     display: inline;
-    width: 20px;
+    width: 23px;
     height: auto;
     padding: 0;
-    margin: 0;
+    margin-left: 8px;
+    margin-top: 0px;
 }
 /*#query {*/
     /*display: block;*/
