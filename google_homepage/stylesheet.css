@@ -18,6 +18,18 @@ form {
     margin-right: auto;
 }
 
+#query {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.submit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 ul {
     list-style-type: none;
     /*position: absolute;*/
