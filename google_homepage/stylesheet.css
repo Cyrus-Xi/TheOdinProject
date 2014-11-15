@@ -1,8 +1,39 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+#header {
+    padding: 10px;
+    background: #5ee;
+}
+
+#content {
+    padding: 10px;
+    padding-bottom: 20px;   /* Height of footer element. */
+}
+
+#footer {
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #E0E0E0;
+}
+
 img {
     display: block;
     /*position: absolute;*/
-    width: 35%;
-    margin-top: 195px;
+    /*width: 35%;*/
+    /*margin-top: 195px;*/
     /*margin-left: 440px;*/
     /*margin-right: 100px;*/
     margin-left: auto;
@@ -10,12 +41,12 @@ img {
 }
 
 form {
-    display: block;
+    /*display: block;*/
     /*position: absolute;*/
-    margin-top: 5px; 
-    width: 48%;
-    margin-left: auto;
-    margin-right: auto;
+    /*margin-top: 5px; */
+    /*width: 80%;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
 }
 
 #query {
@@ -24,23 +55,28 @@ form {
     margin-right: auto;
 }
 
+#submits {
+    text-align: center;
+}
+
 div {
-    width: 38%;
-    margin-left: auto;
-    margin-right: auto;
+    /*width: 38%;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
 }
 
 ul {
     list-style-type: none;
     /*position: absolute;*/
-    margin-top: 10px;
-    margin-left: 930px;
-    padding: 0;
+    /*margin-top: 10px;*/
+    /*margin-left: 930px;*/
+    /*padding: 0;*/
 }
 
 #footer {
-    clear: 
+    /*clear: both;*/
 }
+
 li {
     display: inline;
     text-decoration: none;
@@ -55,8 +91,7 @@ li:hover {
 .resize {
     display: inline;
     width: 23px;
-    height: auto;
-    padding: 0;
+    /*height: auto;*/
     margin-left: 8px;
     margin-top: 0px;
 }
