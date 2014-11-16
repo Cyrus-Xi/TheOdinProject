@@ -13,7 +13,6 @@ body {
 
 #header {
     padding: 10px;
-    /*background: #5ee;*/
     padding-top: 1px;
     padding-right: 21px;
     text-align: right;
@@ -37,25 +36,17 @@ body {
     bottom: 0;
     left: 0;
     padding-top: 14px;
-    /*padding-bottom: 10px;*/
-    /*background: #F0F0F0; */
-    /*vertical-align: middle;*/
     border-top: 1px solid #E0E0E0;
 }
 
 #left_foot {
     display: inline;
     text-align: left;
-    /*margin-top: 30px;*/
-    /*vertical-align: middle;*/
-    /*line-height: 20px;*/
 }
 
 #right_foot {
-    /*text-align: right;*/
     display: inline;
     padding-left: 800px;
-    /*padding-bottom: 15px;*/
 }
 
 img {
@@ -90,13 +81,11 @@ img {
     margin: 3px;
     margin-left: 4px;
     padding: 6px;
-    /*background: #F0F0F0;*/
     background: white;
     border: 1px solid #C1C1C1;
 }
 
 .submit_buttons:hover {
-    /*text-decoration: underline;*/
     border-color: #c6c6c6;
     color: #222!important;
     -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
@@ -146,10 +135,8 @@ a:hover {
 
 .resize {
     display: inline;
-    /*width: 20px;*/
     width: auto;
     height: 18px;
-    /*height: auto;*/
     margin-left: 10px;
     margin-top: 0px;
 }
@@ -167,8 +154,6 @@ a:hover {
     padding: 1px 4px;
     padding-top: 5px;
     margin-left: 9px;
-    /*margin-top: -2px;*/
-    /*margin-bottom: 2px;*/
     font-size: 14.5px;
 }
 
@@ -185,6 +170,3 @@ a:hover {
     margin-top: 0px;
     margin-right: 4px;
 }
-/*#query {*/
-    /*display: block;*/
-/*}*/
