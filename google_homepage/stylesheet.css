@@ -22,7 +22,7 @@ body {
 #content {
     padding: 10px;
     margin-top: 115px;
-    padding-bottom: 18px;   /* Height of footer element. */
+    padding-bottom: 15px;   /* Height of footer element. */
     text-align: center;
 }
 
@@ -32,7 +32,7 @@ body {
 
 #footer {
     width: 96.9%;
-    height: 18px;
+    height: 15px;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -40,7 +40,7 @@ body {
     /*padding-bottom: 10px;*/
     /*background: #F0F0F0; */
     /*vertical-align: middle;*/
-    border-top: 1px solid lightgray;
+    border-top: 1px solid #E0E0E0;
 }
 
 #left_foot {
@@ -88,14 +88,21 @@ img {
 
 .submit_buttons {
     margin: 3px;
+    margin-left: 4px;
     padding: 6px;
     /*background: #F0F0F0;*/
     background: white;
-    border: 1px solid lightgray;
+    border: 1px solid #C1C1C1;
 }
 
 .submit_buttons:hover {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+    border-color: #c6c6c6;
+    color: #222!important;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.15);
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
+    background: #f8f8f8;
+    background: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
 }
 
 ul {
@@ -104,7 +111,7 @@ ul {
 
 li {
     display: inline;
-    margin-left: 7px;
+    margin-left: 6px;
 }
 
 .footer_item {
@@ -118,7 +125,7 @@ li {
 }
 
 a {
-    font-size: 15px;
+    font-size: 16px;
     text-decoration: none;
     color: black;
 }
@@ -127,12 +134,55 @@ a:hover {
     text-decoration: underline;
 }
 
+.footer_link {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.footer_link:hover {
+    text-decoration: underline;
+}
+
 .resize {
     display: inline;
-    width: 20px;
+    /*width: 20px;*/
+    width: auto;
+    height: 18px;
     /*height: auto;*/
     margin-left: 10px;
     margin-top: 0px;
+}
+
+#bell {
+    display: inline;
+    width: 15.5px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+#share {
+    border: 1px solid #C1C1C1;
+    padding: 1px 4px;
+    padding-top: 5px;
+    margin-left: 9px;
+    /*margin-top: -2px;*/
+    /*margin-bottom: 2px;*/
+}
+
+#share:hover {
+    background-color: #F4F4F4;
+    text-decoration: none;
+}
+
+#profile {
+    display: inline;
+    width: 27.5px;
+    height: auto;
+    margin-left: 8px;
+    margin-top: 0px;
+    margin-right: 4px;
 }
 /*#query {*/
     /*display: block;*/
