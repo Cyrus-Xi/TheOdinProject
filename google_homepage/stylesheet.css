@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    width: 100%;
 }
 
 #wrapper {
@@ -30,7 +31,7 @@ body {
 }
 
 #footer {
-    width: 100%;
+    width: 96.9%;
     height: 18px;
     position: absolute;
     bottom: 0;
